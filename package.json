@@ -1,0 +1,18 @@
+{
+  "name": "@tadeubarbosa/global-plugins",
+  "version": "1.0.1",
+  "description": "A factory of global plugins",
+  "bin": {
+    "create-plugin": "bin/create-plugin.js"
+  },
+  "files": [
+    "bin/*",
+    "yarn*",
+    "package*"
+  ],
+  "author": "Tadeu Barbosa <tadeufbarbosa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
